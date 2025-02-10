@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/d3p1/nextjs-dashboard/compare/v1.0.0...v1.1.0) (2025-02-10)
+
+
+### Features
+
+* finish course [[#1](https://github.com/d3p1/nextjs-dashboard/issues/1)] ([6781ae0](https://github.com/d3p1/nextjs-dashboard/commit/6781ae04fc34f52f1b3a7cc1b3e3448442efa684))
+
 # 1.0.0 (2025-02-10)
 
 
