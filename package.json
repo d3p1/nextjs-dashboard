@@ -7,6 +7,7 @@
     "format:code": "prettier --ignore-path .gitignore --check src",
     "format:code:fix": "npm run format:code -- --write",
     "build": "next build",
+    "lint": "next lint",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
@@ -29,6 +30,7 @@
     "@tailwindcss/forms": "^0.5.10",
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "next": "latest",
     "next-auth": "5.0.0-beta.25",
@@ -44,11 +46,14 @@
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@d3p1/commitlint-config": "^1.0.1",
-    "husky": "^9.1.4",
-    "prettier": "3.3.3",
     "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "husky": "^9.1.4",
+    "prettier": "3.3.3"
   }
 }
